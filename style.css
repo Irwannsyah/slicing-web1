@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --main-font: "Poppins", sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+}
+body{
+  background-color: rgb(236, 231, 231);
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+nav{
+  margin-top: 40px;
+}
+nav .brand{
+  font-size: 22px;
+  font-weight: 600;
+}
+nav .brand,
+nav .masuk{
+  width: 20%;
+}
+nav .menu{
+  width: 60%;
+}
+nav .masuk{
+  text-align: right;
+}
+nav .sign-up{
+  border: 1px solid rgba(0, 0, 0,.2);
+  font-size: 16;
+  font-weight: 600;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+  transition: .2s;
+}
+nav .sign-up:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+nav .menu{
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  gap: 55px;
+}
+nav .menu-item{
+  text-decoration: none;
+  color: black;
+  opacity: 80%;
+}
+nav .menu-item:hover{
+  opacity: 1;
+  font-weight: 500;
+  border-bottom: 1px solid #000;
+}
+.a{
+  width: 653px;
+  height: fit-content;
+  padding: 12px;
+  margin:135px auto;
+  text-align: center;
+}
+.a .text-header{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.a .text-footer{
+  font-size: 16;
+  font-weight: normal;
+  color: rgba(0, 0, 0, .6);
+  text-align: center;
+}
+.a .text-button{
+  margin-top: 60px;
+}
+.text-button button{
+  margin-right: 20px;
+  padding: 12px 17px;
+  border: 1px solid #001AFF;
+  background-color: #001AFF;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.text-button a{
+  color: #001AFF;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.b{
+  width: 1140px;
+  height: fit-content;
+  margin: 120px auto;
+}
+.text-job{
+  font-size: 16px;
+}
+.text-apk{
+  display: flex;
+}
+.column{
+  flex: 1;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 25px;
+  margin-top: 12px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.column:nth-child(2){
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.apk-logo{
+  display: flex;
+}
+.apk-logo img{
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+.apk-text{
+  padding-left: 13px;
+  color: white;
+}
+.apk-text .text-apk:first-of-type{
+  font-weight: 700;
+  color: #000000;
+}
+.apk-text .text-apk:last-of-type{
+  font-weight: 400;
+  color: #000000;
+  opacity: .6;
+}
+.text-description{
+  margin: 20px 0;
+  font-weight: 400;
+  color: #000000;
+  opacity: .6;
+}
+.text-pay{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.pay{
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.rust{
+  border: none;
+  background-color: rgba(0, 0, 0, 6%);
+  color: black;
+  width: 57px;
+  height: 28px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+.column:hover{
+  background-color: #001AFF;
+  color: white;
+}
